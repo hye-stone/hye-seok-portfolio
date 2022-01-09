@@ -96,8 +96,8 @@ const ProductList = () => {
               </div>
               <p className="card__description">React를 이용한 포트폴리오</p>
               <div className="links">
-                <p className="link"><a href="https://github.com/hye-stone/portfolio" target='_blank' rel="noreferrer">👨‍💻 GitHub</a></p>
-                <p className="link"><a href="https://github.com/hye-stone/holbein-project" target='_blank' rel="noreferrer">🖥️ Demo</a></p>
+                <p className="link"><a href="https://github.com/hye-stone/hye-seok-portfolio" target='_blank' rel="noreferrer">👨‍💻 GitHub</a></p>
+                <p className="link"><a href="https://hye-stone.github.io/hye-seok-portfolio/" target='_blank' rel="noreferrer">🖥️ Demo</a></p>
               </div>
             </div>
           </div>
