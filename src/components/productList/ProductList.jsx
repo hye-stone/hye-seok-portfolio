@@ -1,5 +1,4 @@
 import "./productList.css"
-import "./product.css"
 import Holbein from "../../img/holbein.png"
 import Shop from "../../img/shop.png"
 import Porsche from "../../img/porsche.png"
@@ -11,7 +10,6 @@ const ProductList = () => {
       <div className="pl-text">
         <h1 className="pl-title">Portfolio</h1>
       </div>
-      <div className="pl-list">
       <div className="p">
       <ul className="cards">
         <li>
@@ -107,7 +105,6 @@ const ProductList = () => {
       </ul>
     </div>
       </div>
-    </div>
   )
 }
 
