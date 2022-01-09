@@ -1,0 +1,66 @@
+.i {
+  display: flex;
+  height: 100vh;
+}
+.i-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-left-wrapper {
+  padding: 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.i-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+.i-name {
+  font-size: 50px;
+}
+.i-title {
+  height: 50px;
+  overflow: hidden;
+  font-size: 30px;
+  font-weight: 500;
+}
+.i-bg {
+  background: url(../../img/work1.jpeg) center no-repeat;
+  background-size: cover;
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .i-title {
+    font-size: 20px;
+  }
+  .i-bg {
+    width: 50vw;
+    height: 50vw;
+    right: 50%;
+    top: 0%;
+    transform: translateX(50%);
+  }
+}

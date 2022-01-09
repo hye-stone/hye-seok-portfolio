@@ -1,0 +1,17 @@
+.pl {
+  padding: 50px 12vw;
+  align-items: center;
+  text-align: center;
+}
+.pl-texts {
+  width: 65%;
+}
+.pl-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 50px 1vw;
+  }
+}
